@@ -3,6 +3,7 @@
   text-align: center;
   position: relative;
   z-index: $z-index-lucky-draw; // make sure contents are on top of confetting
+  top: 100px;
 }
 
 .title {
