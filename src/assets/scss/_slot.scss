@@ -3,7 +3,7 @@
   text-align: center;
   position: relative;
   z-index: $z-index-lucky-draw; // make sure contents are on top of confetting
-  top: 100px;
+  top: 310px;
 }
 
 .title {
@@ -50,7 +50,7 @@
     margin: 0 auto;
     border-radius: $slot-border-radius;
     @include shadow('large');
-    background: $color-slot-background url(@images/light-blubs.svg);
+    background: $color-light-purple url(@images/light-blubs.svg);
     position: relative;
     z-index: $z-index-slot; // make sure slot is on top of sunburst
   }

@@ -4,8 +4,8 @@
   appearance: none;
   @include shadow('large');
   border-radius: 0.625rem;
-  background-color: $color-button-default-background;
-  color: $color-button-text;
+  background-color: $color-button;
+  color: #21154a;
   padding: 1rem 0.625rem;
   font-size: 1.75rem;
   line-height: 1.75rem;
@@ -18,14 +18,14 @@
   outline: none;
 
   &:hover {
-    background-color: $color-button-default-hover-background;
+    background-color: $color-light-purple;
   }
 
   &:disabled {
     cursor: not-allowed;
 
     &:hover {
-      background-color: $color-button-default-background;
+      background-color: $color-light-purple;
     }
   }
 }
